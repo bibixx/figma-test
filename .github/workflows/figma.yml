@@ -37,5 +37,6 @@ jobs:
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
+        commit_user_name: Tokens Studio for Figma Bot
         commit_message: "Update tokens.scss after update of global.json from Figma"
         file_pattern: 'src/styles/tokens.scss'
