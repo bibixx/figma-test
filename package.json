@@ -1,0 +1,15 @@
+{
+  "name": "figma-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bibixx/figma-test.git",
+  "author": "Bartosz Legięć <bartosz@legiec.io>",
+  "license": "MIT",
+  "scripts": {
+    "build-tokens": "token-transformer src/tokens/global.json src/tokens/global.sd.json && style-dictionary build --config tokens.config.json && rm -f src/tokens/*.sd.json"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
+  }
+}
