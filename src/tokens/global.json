@@ -13,7 +13,7 @@
       },
       "fontSizes": {
         "100": {
-          "value": "1000px",
+          "value": "10000px",
           "type": "fontSizes"
         },
         "200": {
